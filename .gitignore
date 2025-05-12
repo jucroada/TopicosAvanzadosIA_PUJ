@@ -1,0 +1,32 @@
+# Python virtual environment
+amzq_workshop/venv/
+amzq_workshop/env/
+amzq_workshop/ENV/
+
+# Python cache files
+amzq_workshop/__pycache__/
+amzq_workshop/*.py[cod]
+amzq_workshop/*$py.class
+amzq_workshop/*.so
+amzq_workshop/.Python
+
+# Distribution / packaging
+amzq_workshop/dist/
+amzq_workshop/build/
+amzq_workshop/*.egg-info/
+
+# Streamlit
+amzq_workshop/.streamlit/
+
+# Environment variables
+amzq_workshop/.env
+
+# IDE specific files
+amzq_workshop/.idea/
+amzq_workshop/.vscode/
+amzq_workshop/*.swp
+amzq_workshop/*.swo
+
+# OS specific files
+amzq_workshop/.DS_Store
+amzq_workshop/Thumbs.db
