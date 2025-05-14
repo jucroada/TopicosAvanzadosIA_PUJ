@@ -56,3 +56,37 @@ The application uses multiple data sources to ensure reliability:
 - The application requires an internet connection to fetch the latest TRM data
 - The app includes multiple fallback mechanisms if the primary data sources are unavailable
 - You can export the data to CSV for offline analysis
+
+#        **Resumen**
+
+Este es el desarrollo de la apliación utilizando Amazon Q, en este caso se pudo desarrollar toda la apliación con dos prompts, donde se tiene como contexto el desarrollo del [laboratorio](https://catalog.us-east-1.prod.workshops.aws/workshops/e2226eb6-f109-47ae-b2c5-f02bf73b7d0e/en-US) en clase. 
+
+El primer prompt utilizado para el desarrollo de esta app es el siguiente:
+```plaintext
+first step, we will start from scratch. I need an app to view the historical representative market rate in USD. I'm from Colombia, and I want to use that as the starting point
+```
+
+Con este prompt, Amazon Q realizó casí toda la app, donde obtenemos los siguientes errores al inicializar la misma app:
+```plaintext
+Downloading TRM data from Banco de la República... This may take a moment.
+
+Error fetching TRM data: Excel file format cannot be determined, you must specify an engine manually.
+
+Could not fetch data from online sources. Using sample data instead.
+```
+
+Con lo que compartimos con Amazon Q los mensajes de error de la aplicación, logrando que Amazon Q empezara a usar la consola de VSCode para corregir el error y terminar la app.
+```plaintext
+I'm getting this message in the app
+...
+```
+
+**Nota:** Dentro del conexto del desarrollo de la app, ya se había experimentado con ejercicios asociados al laboratorio.
+
+##       Anexos   
+
+![Resultado Primer Prompt](images/firstPrompt.png)
+**Resultado del Primer Prompt**
+
+![Resultado Segundo Prompt](images/secondPrompt.png)
+**Resultado del Segundo Prompt**
