@@ -81,7 +81,7 @@ I'm getting this message in the app
 ...
 ```
 
-**Nota:** Dentro del conexto del desarrollo de la app, ya se había experimentado con ejercicios asociados al laboratorio.
+**Nota:** Dentro del conexto del desarrollo de la app, ya se había experimentado con ejercicios asociados al laboratorio. Se hizo el desarrollo de la app en inglés buscando obtener los mejores resultados posibles.
 
 ##       Anexos   
 
